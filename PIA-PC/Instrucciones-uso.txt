@@ -1,0 +1,27 @@
+Antes de comenzar, debemos instalar los paquetes con el archivo 'requirements.txt', el archivo requirements.txt permite automatizar la instalación de paquetes, y lo podemos utilizar ejecutando el siguiente comando en nuestra terminal:
+
+	pip install -r requirements.txt
+
+1. Primeramente se debe acceder a la carpeta donde se encuetra el script desde la terminal cmd 
+
+2. Seguido de haber accedido a la carpeta deberá escribir la línea de ejecución "python PIA.py -h", esto desplegará un menú, este contiene cada una de las tareas de ciberseguridad con las que se estará trabajando
+
+3. Ya con el menú desplegado se puede ver en perfecto orden cada una de estas tareas, de esta forma:
+
+    1. Obtención de metadatos
+    2. Obtención de claves Hash
+    3. Escaneo de páginas Web 
+    4. Envío de archivos adjutos por email 
+
+    5. Cifrado Cesar
+    6. Descifrado Cesar
+    7. Crackeo Cesar
+
+Los números que se encuentran antes de cada función son las claves para la ejecución de las mismas.
+
+4. Para la ejecución de cualquiera de estas tareas se necesitará escribir en la terminal CMD "python PIA.py -tarea #Número de la tarea" 
+
+Esta instrucción será más que suficiente para la ejecución de forma correcta de 4 de estás 5 tareas
+
+La tarea número 1, "Obtención de metadatos" requiere un argumento extra que es necesario para la ejecución correcta. deberá escribirse de esta forma "python Pia.py -tarea 1 -c "ruta path de la carpeta que contiene las imágenes""
+
